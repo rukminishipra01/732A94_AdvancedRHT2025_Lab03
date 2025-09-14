@@ -13,3 +13,6 @@ Description: Fulfills the assignments for lab 3.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 3.5)
+RoxygenNote: 7.3.2
