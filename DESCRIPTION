@@ -1,0 +1,15 @@
+Package: AdvancedRHT2025Lab03
+Type: Package
+Title: Lab 3
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Hannah", "Köster",
+      email = "hanko154@student.liu.se",
+      role = c("aut", "cre")
+    )
+  )
+Description: Fulfills the assignments for lab 3.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
