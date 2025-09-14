@@ -2,6 +2,7 @@
 # AdvancedRHT2025Lab03
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/Cl4ryty/732A94_AdvancedRHT2025_Lab03/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Cl4ryty/732A94_AdvancedRHT2025_Lab03/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of AdvancedRHT2025Lab03 is to ...
