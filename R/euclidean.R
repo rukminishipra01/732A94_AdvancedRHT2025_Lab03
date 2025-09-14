@@ -1,3 +1,20 @@
+#' Euclidean algorithm
+#'
+#' Find the greatest common divisor of two numbers
+#' TODO description of algorithm
+#'
+#'
+#' @param a A number
+#' @param b A number
+#'
+#' @returns The greatest common divisor of a and b
+#' @export
+#'
+#' @examples
+#' euclidean(123612, 13892347912)
+#' euclidean(100, 1000)
+#'
+#' @references https://en.wikipedia.org/wiki/Euclidean_algorithm
 euclidean <- function(a, b) {
   if(!is.numeric(a) || length(a)!=1){
     stop("a must be a numeric scalar")

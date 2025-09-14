@@ -1,3 +1,19 @@
+#' Dijkstra Algorithm
+#'
+#' Calculate the shortest path from an initial node to all other nodes in the graph
+#' TODO description of algorithm
+#'
+#' @param graph A data.frame describing the graph. Must contain three variables (v1, v2, and w) containing the edges of the graph (from v1 to v2) and the weight of the edge (w)
+#' @param init_node A numeric scalar – the initial node
+#'
+#' @returns A numeric vector of all shortest distances
+#' @export
+#'
+#' @examples
+#' dijkstra(wiki_graph, 1)
+#' dijkstra(wiki_graph, 3)
+#'
+#' @references https://en.wikipedia.org/wiki/Dijkstra%27s
 dijkstra <- function(graph, init_node) {
   if(!is.data.frame(graph)){
     stop("graph must be a data.frame containing the three variables v1, v2, and w")
