@@ -7,6 +7,11 @@ Authors@R: c(
       "Hannah", "Köster",
       email = "hanko154@student.liu.se",
       role = c("aut", "cre")
+    ),
+    person(
+      "Rukmini Shipra", "Sundaraneedi",
+      email = "ruksu271@student.liu.se",
+      role = "aut"
     )
     person(
       "Rukmini Shipra", "Sundaraneedi",
