@@ -1,7 +1,8 @@
 #' Euclidean algorithm
 #'
-#' Find the greatest common divisor of two numbers
-#' TODO description of algorithm
+#' Find the greatest common divisor of two numbers using the Euclidean algorithm.
+#' The algorithm repeatedly applies the division algorithm until the remainder is zero.
+#' The last non-zero remainder is the greatest common divisor.
 #'
 #'
 #' @param a A number
@@ -14,7 +15,7 @@
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)
 #'
-#' @references https://en.wikipedia.org/wiki/Euclidean_algorithm
+#' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 euclidean <- function(a, b) {
   if(!is.numeric(a) || length(a)!=1){
     stop("a must be a numeric scalar")
