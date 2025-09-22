@@ -15,8 +15,9 @@ euclidean(a, b)
 The greatest common divisor of a and b
 }
 \description{
-Find the greatest common divisor of two numbers
-TODO description of algorithm
+Find the greatest common divisor of two numbers using the Euclidean algorithm.
+The algorithm repeatedly applies the division algorithm until the remainder is zero.
+The last non-zero remainder is the greatest common divisor.
 }
 \examples{
 euclidean(123612, 13892347912)
@@ -24,5 +25,5 @@ euclidean(100, 1000)
 
 }
 \references{
-https://en.wikipedia.org/wiki/Euclidean_algorithm
+\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 }
